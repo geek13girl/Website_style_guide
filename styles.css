@@ -1,0 +1,128 @@
+body {
+  background-color: #EAFBF6;
+}
+header {
+  background-color: #0F4C3A;
+  color: white;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+header h1 {
+  font-family: Rockwell, Georgia, serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+nav {
+  text-align: center;
+}
+nav li{
+  display: inline-block;
+  margin: 5px;
+}
+nav a {
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #0F4C3A;
+  background-color: #EAFBF6;
+}
+main {
+  margin: 160px auto 60px auto;
+  position: relative;
+  width: 80%;
+}
+main h2 {
+    background-color: rgba(255, 255, 0, 0.4);
+    font-family: Rockwell, Georgia, serif;
+    font-size: 30px;
+    padding: 5px 15px;
+}
+p {
+  font-family: 'Lucidia Bright', Georgia, serif;
+  font-size: 25px;
+}
+li {
+  font-size: 20px;
+}
+.box {
+  text-align: center;
+}
+.panel {
+  display: inline-block;
+}
+.color-box p {
+  padding: 40px;
+  text-align: center;
+}
+.color-box ul {
+  list-style-type: none;
+}
+.light-green p {
+  background-color: #EAFBF6;
+  border: 1px solid black;
+}
+.dark-green p {
+  background-color: #0F4C3A;
+  border: 1px solid black;
+  color: white;
+}
+.yellow p {
+  background-color: #FFFF00;
+  border: 1px solid black;
+}
+.rockwell li{
+  font-family: Rockwell, Georgia, serif;
+}
+.lucidia-bright li{
+  font-family: 'Lucidia Bright', Georgia, serif;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+#buttons a {
+  padding: 10px;
+  text-decoration: none;
+}
+.dark-buttons a:hover {
+  color: #0F4C3A;
+  background-color: #EAFBF6;
+}
+.light-buttons a:hover {
+  color: #EAFBF6;
+  background-color: #0F4C3A;
+}
+.light-buttons a {
+  background-color: #EAFBF6;
+  border: 1px solid #0F4C3A;
+  color: #0F4C3A;
+}
+.dark-buttons a {
+  background-color: #0F4C3A;
+  border: 1px solid #0F4C3A;
+  color: #EAFBF6;
+}
+
+footer {
+  bottom: 0;
+  background-color: #0F4C3A;
+  color: white;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+footer p {
+  font-size: 15px;
+  text-align: center;
+}
